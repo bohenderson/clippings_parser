@@ -257,7 +257,7 @@ while ($_ = <$ifd>) {
     }  
 
     # Get Location
-    if (/Location\s([\d]+)/) {
+    if (/[Ll]ocation\s([\d]+)/) {
       $loc = $1; # print "location: $loc\n";
     } elsif (/[Pp]age\s([\d]+)/) {
       $loc = $1; # print "page: $loc\n";
